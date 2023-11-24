@@ -30,14 +30,14 @@
         android:text="Email/Nomer Telepon"
         android:textSize="18sp"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@id/textInput_Email"
+        app:layout_constraintBottom_toTopOf="@id/textInput_Email_Regis"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginStart="14dp"
         android:layout_marginBottom="5dp"
         />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInput_Email"
+        android:id="@+id/textInput_Email_Regis"
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -99,7 +99,7 @@
         android:layout_marginBottom="25dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/et_password_login"
+            android:id="@+id/et_password_regis"
             android:layout_width="match_parent"
             android:inputType="textPassword"
             android:layout_height="wrap_content"/>
@@ -125,7 +125,7 @@
         android:fontFamily="@font/poppins_regular"
         app:layout_constraintBottom_toTopOf="@id/masuk_without_login"
         android:text="Belum Punya Akun?"
-        android:layout_marginStart="60dp"
+        android:layout_marginStart="70dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/daftardisini_login"
         android:textColor="@color/white"
@@ -143,7 +143,7 @@
         android:textStyle="bold"
         android:textColor="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="70dp"
         android:layout_marginBottom="5dp"
         app:layout_constraintStart_toEndOf="@id/tv_belum_punya_acc_login"/>
 

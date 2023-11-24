@@ -18,7 +18,7 @@ class LoginActivity : AppCompatActivity() {
             finish()
         }
         binding.daftardisiniLogin.setOnClickListener {
-            startActivity(Intent(this,MainActivity::class.java))
+            startActivity(Intent(this,RegisterActivity::class.java))
 
         }
     }
